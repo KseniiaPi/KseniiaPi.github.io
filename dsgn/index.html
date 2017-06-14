@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.0.3/css/font-awesome.min.css">
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" href="bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            var menu_button = document.querySelector('.menu_button');
+            var menu = document.getElementById("menu");
+            menu_button.addEventListener('click', function () {
+                menu.classList.remove('none');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var close = document.querySelector('.down');
+            var menu = document.getElementById("menu");
+            close.addEventListener('click', function () {
+                menu.classList.add('none');
+            });
+        });
+    </script>    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="row">
+                <div class="col-md-8 header_first">
+                    <div class="chairs">
+                        <div class="logo"> <img src="images/logo.png">
+                            <p>associates</p>
+                            <p>studio</p>
+                            <p>design</p>
+                        </div>
+                        <div class="social">
+                            <div class="fab"><i class="fa fa-facebook fa-2x" aria-hidden="true"> </i> </div>
+                            <div><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 header_second">
+                    <div class="menu">
+                        <div class="address">90802 California
+                            <br>Long beach
+                            <br>PO Box 68789
+                            <br>300 East Ocean
+                            <br>Boulevard </div>
+                        <div class="site">+64 9 345 6758
+                            <br>info@dsgn-studio.com</div>
+                        <button class="menu_button"> <i class="fa fa-bars fa-2x" aria-hidden="true"></i> </button>
+                        <nav class="navbar yellow none" role="navigation" id="menu">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">home</a></li>
+                                <li><a href="#">projects</a></li>
+                                <li><a href="#">studio</a></li>
+                                <li><a href="#">news</a></li>
+                                <li><a href="#">contract</a></li>
+                            </ul>
+                            <div class="down">
+                                <div class="x"> <i class="fa fa-times" aria-hidden="true"></i> </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="projects">
+            <div class="row project_first_row">
+                <div class="col-md-4 projects_name">
+                    <div class="projects_titles">
+                        <ul>
+                            <li class="active"><a href="#">All</a></li>
+                            <li><a href="#">House</a></li>
+                            <li><a href="#">Commercial</a></li>
+                            <li><a href="#">Personal</a></li>
+                            <li><a href="#">Studio Lab</a></li>
+                        </ul>
+                    </div>
+                    <div class="main_project_title"> projects </div>
+                </div>
+                <div class="col-md-4 fondue">
+                    <div class="fondue_title"> fondue </div>
+                    <div class="fondue_description"> <span>Project Assistant:</span>Francesco Dompieri
+                        <br> <span>Material:</span> Glass and Metal
+                        <br> <span>Typology:</span> Suspension lamp
+                        <br> <span>Client:</span> David Design
+                        <br> <span>Year:</span> 2014 </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_fondue">
+                        <input type="image" src="images/heart.png">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 potter">
+                    <div class="potter_title"> potter </div>
+                    <div class="potter_description"> <span>for stelton</span>
+                        <br>Potter focuses on the functionali-
+                        <br>ty and process of preparing tea.
+                        <br>a big sieve allows the flavor of to
+                        <br>evenly brewed. </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_potter">
+                        <input type="image" src="images/heart.png">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row project_second_row">
+                <div class="col-md-4 louis">
+                    <div class="louis_title"> louis xx </div>
+                    <div class="louis_description"> <span>designer:</span> philippe starck
+                        <br> <span>ypology:</span> chairs
+                        <br> <span>Client:</span> vitra
+                        <br> <span>Year:</span> 2012 </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_louis">
+                        <input type="image" id="whiteHeart" src="images/white_heart.png ">
+                        <input type="image" src="images/heart.png" class="displayHeart">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project395">
+                    <div class="project395_title"> 395-396 P22 </div>
+                    <div class="project395_description"> <span>designer:</span> Patrick Norguet
+                        <br> <span>typology:</span> armchairs
+                        <br> <span>Client:</span> cassina
+                        <br> <span>Year:</span> 2013 </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_project395">
+                        <input type="image" src="images/heart.png">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 double_projects">
+                    <div class="row1 tabano">
+                        <div class="tabano_title"> tabano </div>
+                        <div class="tabano_description"> <span>designer:</span> patricia urquiola
+                            <br> <span>typology:</span> armchairs
+                            <br> <span>Client:</span> B&B Italia
+                            <br> <span>Year:</span> 2013 </div>
+                        <ul class="view_project">
+                            <li>view project</li>
+                        </ul>
+                        <div class="like like_tabano">
+                            <input type="image" src="images/heart.png">
+                            <div class="like_count"> +200 </div>
+                        </div>
+                    </div>
+                    <div class="row2 fiji">
+                        <div class="fiji_title"> fiji </div>
+                        <div class="fiji_description"> <span>designer:</span> cuno fromherz
+                            <br> <span>typology:</span> armchairs
+                            <br> <span>Year:</span> 2012 </div>
+                        <ul class="view_project">
+                            <li>view project</li>
+                        </ul>
+                        <div class="like like_fiji">
+                            <input type="image" src="images/heart.png">
+                            <div class="like_count"> +200 </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 sesann">
+                    <div class="sesann_title"> sesann </div>
+                    <div class="sesann_description"> <span>designer:</span> gianfranco frattini
+                        <br> <span>typology:</span> armchairs
+                        <br> <span>client:</span> cassina
+                        <br> <span>Year:</span> 1970 </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_sesann">
+                        <input type="image" src="images/heart.png">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 alessi">
+                    <div class="alessi_title"> alessi </div>
+                    <div class="alessi_description"> <span>designer:</span> pierro lisooni
+                        <br> <span>client:</span> alessi
+                        <br> <span>Year:</span> 1970 </div>
+                    <ul class="view_project">
+                        <li>view project</li>
+                    </ul>
+                    <div class="like like_alessi">
+                        <input type="image" src="images/heart.png">
+                        <div class="like_count"> +200 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 timeline">
+                    <div class="timeline_titles">
+                        <h4>timeline</h4>
+                        <ul>
+                            <li class="active">2014</li>
+                            <li>2013</li>
+                            <li>2012</li>
+                            <li>2011</li>
+                            <li>2010</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+        <section class="studio">
+            <div class="row">
+                <div class="col-md-4 studio_title">
+                    <p>studio</p>
+                </div>
+                <div class="col-md-8 studio_description">
+                    <div class="description_text">
+                        <div class="first_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
+                            <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
+                        </div>
+                        <div class="second_text">
+                            <p>Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat. </p>
+                            <p>Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi. </p>
+                            <p>Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.</p>
+                        </div>
+                    </div>
+                    <div class="studio_image"> <img src="images/studio_photo.png" alt="">
+                        <div class="awards">
+                            <div class="award_title">awards</div>
+                            <div class="award_line"></div>
+                            <div class="award_list">
+                                <ul class="award_left">
+                                    <li>Aenean ullamcorper porta nisl,</li>
+                                    <li>ac lobortis elit</li>
+                                    <li>commodo placerat</li>
+                                    <li>vivamus</li>
+                                </ul>
+                                <ul class="award_right">
+                                    <li>Aenean ullamcorper porta nisl,</li>
+                                    <li>ac lobortis elit</li>
+                                    <li>commodo placerat</li>
+                                    <li>vivamus</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 staff_description">
+                    <div class="staff_title"> staff </div>
+                    <div class="staff_text">
+                        <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus.</p>
+                        <p>Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut.</p>
+                        <p>Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 designers">
+                    <div class="designer designer1"> <img src="images/philippe.png" alt="">
+                        <div class="designer_title"> philippe starck </div>
+                        <div class="designer_profession"> designer </div>
+                        <div class="designer_contact">
+                            <div class="cv">CV</div>
+                            <div><i class="fa fa-facebook" aria-hidden="true"> </i> </div>
+                            <div><i class="fa fa-twitter" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-linkedin" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="designer designer2"> <img src="images/mario.png" alt="">
+                        <div class="designer_title"> mario bellini </div>
+                        <div class="designer_profession"> designer </div>
+                        <div class="designer_contact">
+                            <div class="cv">CV</div>
+                            <div><i class="fa fa-facebook" aria-hidden="true"> </i> </div>
+                            <div><i class="fa fa-twitter" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-linkedin" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="designer designer3"> <img src="images/patricia.png" alt="">
+                        <div class="designer_title"> patricia urquiola </div>
+                        <div class="designer_profession"> designer </div>
+                        <div class="designer_contact">
+                            <div class="cv">CV</div>
+                            <div><i class="fa fa-facebook" aria-hidden="true"> </i> </div>
+                            <div><i class="fa fa-twitter" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-linkedin" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="col-md-4 news_title">
+                <p>news</p>
+            </div>
+            <div class="col-md-8 news_article">
+                <div class="row">
+                    <article class="article1">
+                        <div class="article_title">Mauris et dui sed justo placerat tristique. </div>
+                        <date class="article_date">11.07.2014</date> <img src="images/newsphoto_1.png" alt="">
+                        <div class="article_text">Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. </div>
+                        <div class="article_more"> <a href="#">read more</a> </div>
+                    </article>
+                    <article class="article2">
+                        <div class="article_title">Proin vehicula nibh massa </div>
+                        <date class="article_date">11.06.2014</date> <img src="images/newsphoto_2.png" alt="">
+                        <div class="article_text">Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque. </div>
+                        <div class="article_more"> <a href="#">read more</a> </div>
+                    </article>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-6 map"> </div>
+                <div class="col-md-6 contacts">
+                    <div class="footer_contacts">
+                        <div class="address">90802 California
+                            <br>Long beach
+                            <br>PO Box 68789
+                            <br>300 East Ocean
+                            <br>Boulevard </div>
+                        <div class="site">+64 9 345 6758
+                            <br>info@dsgn-studio.com</div>
+                    </div>
+                    <div class="footer_logo">
+                        <div class="logo"> <img src="images/logo.png">
+                            <p>associates</p>
+                            <p>studio</p>
+                            <p>design</p>
+                        </div>
+                        <div class="social">
+                            <div class="fab"><i class="fa fa-facebook fa-2x" aria-hidden="true"> </i> </div>
+                            <div><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> </div>
+                            <div><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
