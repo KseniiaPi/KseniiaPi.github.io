@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #2f3238 !important;
+}
+
+.wrapper {
+	min-width: 420px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.header {
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.project {
+	width: 100%;
+	height: 400px;
+}
+
+.project:hover {
+	cursor: pointer;
+}
+
+.project img {
+	width: 100%;
+	height: 90%;
+}
+
+.footer {
+	color: #fff;
+}
+
+.header span {
+	font-size: 61px;
+}
