@@ -50,8 +50,8 @@ body {
 	color: #fff;
 }
 
-.header span {
-	font-size: 61px;
+.header img {
+	width: 46px;
 }
 @media screen and (max-width: 767px) {
 	.footer {
