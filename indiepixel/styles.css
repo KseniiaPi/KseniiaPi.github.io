@@ -1,0 +1,403 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1366px;
+	margin: 0 auto;
+	min-width: 420px;
+}
+
+.header {
+	height: 100px;
+}
+
+.first_line {
+	background-color: #04e2a1;
+	height: 22px;
+}
+
+.main_header {
+	background-color: #e74542;
+	height: 78px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	padding-left: 16.5%;
+	flex-grow: 8;
+}
+
+.contact {
+	font-family: sans-serif;
+	color: #f9fbe7;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+	flex-grow: 1.5;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #f9fbe7;
+}
+
+.contact a:hover {
+	color: #fdd835;
+}
+
+.yellow_line {
+	background-color: #fdd835;
+	width: 106px;
+	height: 3px;
+}
+
+.main {
+	background: url(images/Phone.png) no-repeat 22% 35%, url(images/Green_Elements.png) no-repeat 0 -45%;
+	height: 996px;
+}
+
+.know_more {
+	position: relative;
+	background-color: #ed524f;
+	height: 595px;
+	z-index: -1;
+}
+
+.offer {
+	position: relative;
+	z-index: 1;
+	padding: 190px 12% 0 53%;
+}
+
+.offer h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	width: 104%;
+}
+
+.offer p {
+	font-family: 'Montserrat', sans-serif;
+	color: #f9fbe8;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: justify;
+	margin-top: 34px;
+	width: 104%;
+}
+
+.offer a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+
+.more {
+	border-radius: 6px;
+	background-color: #04e4a2;
+	width: 166px;
+	height: 54px;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-style: none;
+	margin-top: 57px;
+	float: right;
+	margin-right: -4%;
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+}
+
+.more:hover {
+	background-color: #077353;
+}
+
+.more:active {
+	bottom: 2px;
+}
+
+.send {}
+
+.talk {
+	font-family: 'Montserrat', sans-serif;
+	color: #ff8a80;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: left;
+	padding-top: 33px;
+	padding-left: 732px;
+}
+
+.user_data {
+	margin-top: 25px;
+	margin-left: 53%;
+}
+
+.user_data input {
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: #e3f2fd;
+	border-style: solid;
+	width: 35.5%;
+	height: 46px;
+	padding-left: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: #626262;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.design,
+.last_name {
+	margin-left: 3%;
+}
+
+.address_design,
+.query {
+	margin-top: 21px;
+}
+
+.user_data .query input {
+	width: 79%;
+	height: 96px;
+}
+
+datalist {
+	font-family: 'Montserrat', sans-serif;
+	color: #626262;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+input::-webkit-calendar-picker-indicator {
+	display: none;
+}
+
+.design:hover,
+.design:active {
+	background: url(images/Drop.png) no-repeat 98% 50%;
+	cursor: pointer;
+}
+
+.submit_order {
+	border-radius: 8px;
+	background-color: #ef5350;
+	width: 120px;
+	height: 45px;
+	color: #fff;
+	border-style: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 15px;
+	float: right;
+	margin-right: 17%;
+	margin-bottom: 32px;
+	outline-style: none;
+}
+
+.submit_order:hover {
+	cursor: pointer;
+	background: #e74542;
+}
+
+.submit_order:active {
+	position: relative;
+	top: 2px;
+	outline-style: none;
+}
+
+.footer {
+	background-color: #fefcf2;
+	height: 73px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	width: 100%;
+}
+
+.mail_us {
+	background: url(images/Mail.png) no-repeat;
+	height: 28px;
+	margin-right: 0.5%;
+	margin-top: 6px;
+}
+
+.mail_us p {
+	padding-left: 40px;
+}
+
+@media screen and (max-width:1350px) {
+	.offer {
+		padding: 80px 12% 0 53%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.submit_order {
+		margin-right: 16%;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.user_data .query input {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.submit_order {
+		margin-right: 15%;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.offer {
+		padding: 80px 12% 0 57%;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.user_data .query input {
+		width: 81%;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.submit_order {
+		margin-right: 14%;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.main {
+		background: url(images/Green_Elements.png) no-repeat 0 -45%;
+	}
+	.offer {
+		padding: 80px 12% 0 35%;
+	}
+	.user_data {
+		margin-left: 16%;
+	}
+	.user_data .query input {
+		width: 78%;
+	}
+	.submit_order {
+		margin-right: 19%;
+	}
+	.talk {
+		padding-left: 17%;
+	}
+}
+
+@media screen and (max-width: 872px) {
+	.submit_order {
+		margin-right: 18%;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.user_data .query input {
+		width: 79%;
+	}
+	.submit_order {
+		margin-right: 17%;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.offer {
+		padding: 60px 12% 0 35%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		background: none;
+	}
+	.offer {
+		padding: 60px 12% 0 16%;
+	}
+	.know_more {
+		height: 480px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.user_data .query input {
+		width: 80%;
+	}
+	.submit_order {
+		margin-right: 15%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.user_data .query input {
+		width: 81%;
+	}
+	.submit_order {
+		margin-right: 13%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.user_data .query input {
+		width: 82%;
+	}
+	.submit_order {
+		margin-right: 11%;
+	}
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+	/* IE10+ specific styles go here */
+	.wrapper {
+		background: url(images/ie10.png) no-repeat 0 36px;
+	}
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) and (max-width: 1177px){
+	/* IE10+ specific styles go here */	
+	.wrapper {
+		background: url(images/Green_Elements.png) no-repeat 0 36px;
+	}	
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) and (max-width: 764px){
+	/* IE10+ specific styles go here */	
+	.wrapper {
+		background: none;
+	}	
+}
+
