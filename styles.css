@@ -53,3 +53,9 @@ body {
 .header span {
 	font-size: 61px;
 }
+@media screen and (max-width: 767px) {
+	.footer {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
