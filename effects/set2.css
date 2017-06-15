@@ -1256,15 +1256,68 @@ figure.effect-duke:hover p {
 }
 
 /* Media queries */
+
+@media screen and (max-width: 1199px) {
+	.grid figure {
+		height: 85%;
+	}
+	.second .grid figure {
+		margin-top: -10%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.grid figure {
+		height: 70%;
+	}
+	.second .grid figure {
+		margin-top: -26%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.grid figure {
+		height: 95%;
+		width: 80%;
+	}
+	.second .grid figure {
+		margin-top: 0;
+	}
+	.footer {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.header {
+		margin: 50px auto;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.grid figure {
+		height: 85%;
+		width: 80%;
+	}
+}
+
+
+@media screen and (max-width: 560px) {
+	.grid figure {
+		height: 75%;
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 50em) {
 	.content {
 		padding: 0 10px;
 		text-align: center;
 	}
+	
 	.grid figure {
 		display: inline-block;
 		float: none;
 		margin: 10px auto;
-		width: 100%;
+		/* width: 100%; */
 	}
 }
