@@ -1678,167 +1678,172 @@ input {
 }
 
 @media (max-width: 527px) {
-    .header .logo img {
-        width: 19%;
-    }
-    .header .logo p {
-        font-size: 16px;
-    }
-    .fa-2x {
-        font-size: 1.3em !important;
-    }
-    .social .fab {
-        width: 19px !important;
-    }
-    .social div {
-        width: 25px;
-    }
-    .chairs {
-        background-size: 152% 100%;
-        background-position: 63% 0;
-    }
+	.header .logo img {
+		width: 19%;
+	}
+	.header .logo p {
+		font-size: 16px;
+	}
+	.fa-2x {
+		font-size: 1.3em !important;
+	}
+	.social .fab {
+		width: 19px !important;
+	}
+	.social div {
+		width: 25px;
+	}
+	.chairs {		
+		background: url(images/chairs.png) no-repeat #e6e8e0;
+		background-size: contain;
+		background-position: 0 57px;
+		height: 386px;
+	}
 }
 
 @media (max-width: 524px) {
-    .sesann {
-        background-position-x: 48%;
-    }
+	.sesann {
+		background-position-x: 48%;
+	}
 }
 
 @media (max-width: 520px) {
-    .fondue {
-        background-size: 100% 100%;
-    }
-    .tabano ul li {
-        margin-top: -54px;
-    }
+	.fondue {
+		background-size: 100% 100%;
+	}
+	.tabano ul li {
+		margin-top: -54px;
+	}
 }
 
 @media (max-width: 519px) {
-    .project395_title,
-    .project395_description {
-        margin-left: 33%;
-    }
-    .project395 ul li {
-        margin-left: 71%;
-    }
+	.project395_title,
+	.project395_description {
+		margin-left: 33%;
+	}
+	.project395 ul li {
+		margin-left: 71%;
+	}
 }
 
 @media (max-width: 512px) {
-    .like_sesann {
-        padding-left: 47%;
-    }
+	.like_sesann {
+		padding-left: 47%;
+	}
 }
 
 @media (max-width: 482px) {
-    .header .logo p {
-        font-size: 14px;
-    }
-    .footer_contacts {
-        margin-left: 12%;
-    }
+	.header .logo p {
+		font-size: 14px;
+	}
+	.footer_contacts {
+		margin-left: 12%;
+	}
 }
 
 @media (max-width: 478px) {
-    .sesann {
-        background-position: top;
-        background-size: contain;
-    }
-    .sesann_title {
-        padding-top: 142px;
-    }
-    .sesann ul li {
-        margin-top: 2px;
-    }
+	.sesann {
+		background-position: top;
+		background-size: contain;
+	}
+	.sesann_title {
+		padding-top: 142px;
+	}
+	.sesann ul li {
+		margin-top: 2px;
+	}
 }
 
 @media (max-width: 450px) {
-    .fondue {
-        background-position: 30% 34%;
-    }
+	.fondue {
+		background-position: 30% 34%;
+	}
 }
 
 @media (max-width: 439px) {
-    .project395_title,
-    .project395_description {
-        margin-left: 19%;
-    }
+	.project395_title,
+	.project395_description {
+		margin-left: 19%;
+	}
 }
 
 @media (max-width: 425px) {
-    .displayHeart {
-        margin-left: 44%;
-    }
-    .footer_contacts {
-        margin-left: 9%;
-    }
+	.displayHeart {
+		margin-left: 44%;
+	}
+	.footer_contacts {
+		margin-left: 9%;
+	}
 }
 
 @media (max-width: 408px) {
-    .header .site {
-        margin-left: 12%;
-    }
-    .fondue {
-        height: 400px;
-    }
-    .potter {
-        height: 250px;
-    }
-    .like_fondue {
-        margin-top: 35px;
-    }
+	.header .site {
+		margin-left: 12%;
+	}
+	.fondue {
+		height: 400px;
+	}
+	.potter {
+		height: 250px;
+	}
+	.like_fondue {
+		margin-top: 35px;
+	}
 }
 
 @media (max-width: 380px) {
-    .main_project_title {
-        margin-left: 23%;
-    }
-    .potter {
-        background-size: 108% 100%;
-    }
-    .displayHeart {
-        margin-left: 43%;
-    }
-    .tabano_description,
-    .tabano_title {
-        padding-left: 5%;
-    }
+	.main_project_title {
+		margin-left: 23%;
+	}
+	.potter {
+		background-size: 108% 100%;
+	}
+	.displayHeart {
+		margin-left: 43%;
+	}
+	.tabano_description,
+	.tabano_title {
+		padding-left: 5%;
+	}
+	.tabano {
+		background-position-x: -20px;
+	}
 }
 
 @media (max-width: 360px) {
-    .main_project_title {
-        margin-left: 23%;
-    }
-    .fondue {
-        height: 350px;
-    }
-    .like_fondue {
-        margin-top: 0;
-    }
-    .project395 ul li {
-        margin-left: 63%;
-    }
-    .tabano {
-        background-position-x: -50px;
-    }
-    .tabano ul li {
-        margin-left: 62%;
-    }
+	.main_project_title {
+		margin-left: 23%;
+	}
+	.fondue {
+		height: 350px;
+	}
+	.like_fondue {
+		margin-top: 0;
+	}
+	.project395 ul li {
+		margin-left: 63%;
+	}
+	.tabano {
+		background-position-x: -50px;
+	}
+	.tabano ul li {
+		margin-left: 62%;
+	}
 }
 
 @media (max-width: 351px) {
-    .project395_title,
-    .project395_description {
-        margin-left: 7%;
-    }
+	.project395_title,
+	.project395_description {
+		margin-left: 7%;
+	}
 }
 
 @media (max-width: 340px) {
-    .alessi ul li {
-        margin-left: 55%;
-    }
-    .alessi_title,
-    .alessi_description {
-        margin-left: 52%;
-    }
+	.alessi ul li {
+		margin-left: 55%;
+	}
+	.alessi_title,
+	.alessi_description {
+		margin-left: 52%;
+	}
 }
