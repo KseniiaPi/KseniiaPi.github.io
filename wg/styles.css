@@ -14,7 +14,7 @@
 		.wrapper {
 			margin: 0 auto;
 			max-width: 1280px;
-			min-width: 420px;
+			min-width: 340px;
 			position: relative;
 		}
 		
@@ -633,11 +633,42 @@
 			}
 		}
 		
+		@media screen and (max-width: 410px) {
+			.name,
+			.mail,
+			.message {
+				width: 180px;
+			}
+			.name {
+				margin-top: 64px;
+			}
+			.check {
+				margin-left: 139px;
+			}
+			.send {
+				width: 340px;
+				height: 340px;
+			}
+		}
+		
+		@media screen and (max-width: 400px) {
+			.slogan {
+				font-size: 25px;
+				line-height: 37px;
+			}
+			.green_heading1 {
+				height: 951px;
+			}
+			.green_heading2 {
+				height: 816px;
+			}
+		}
+		
 		@media screen and (-ms-high-contrast: active),
 		(-ms-high-contrast: none) {
 			/* IE10+ specific styles go here */
 			.header {
-				background: url(images/background.png); 				
+				background: url(images/background.png);
 				height: 800px;
 				box-sizing: content-box;
 				background-size: cover;
