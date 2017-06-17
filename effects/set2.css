@@ -1308,6 +1308,20 @@ figure.effect-duke:hover p {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.header {
+		margin: 100px auto;
+		width: 80%;
+	}
+	.grid {
+		margin-top: -19%;
+	}
+	.grid figure {
+		height: 67%;
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 50em) {
 	.content {
 		padding: 0 10px;
