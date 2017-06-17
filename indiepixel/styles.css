@@ -6,7 +6,7 @@
 .wrapper {
 	max-width: 1366px;
 	margin: 0 auto;
-	min-width: 420px;
+	min-width: 340px;
 }
 
 .header {
@@ -340,7 +340,7 @@ input::-webkit-calendar-picker-indicator {
 		padding: 60px 12% 0 16%;
 	}
 	.know_more {
-		height: 480px;
+		height: 500px;
 	}
 }
 
@@ -356,6 +356,10 @@ input::-webkit-calendar-picker-indicator {
 @media screen and (max-width: 600px) {
 	.footer {
 		font-size: 12px;
+	}
+	.mail_us {
+		background: url(images/Mail.png) 10px 0px no-repeat;
+		background-size: 24px;
 	}
 }
 
@@ -377,6 +381,53 @@ input::-webkit-calendar-picker-indicator {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.contact {
+		flex-grow: 4.5;
+	}
+	.logo {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.contact {
+		font-size: 14px;
+	}
+	.yellow_line {
+		width: 91px;
+	}
+	.user_data input {
+		font-size: 14px;
+	}
+	.user_data .query input {
+		width: 83%;
+	}
+	.footer {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.logo {
+		font-size: 27px;
+	}
+	.user_data .query input {
+		width: 84%;
+	}
+	.submit_order {
+		margin-right: 8%;
+	}
+	.mail_us {
+		background: url(images/Mail.png) 15px 1px no-repeat;
+		height: 24px;
+		background-size: 20px;
+	}
+	.user_data {
+		margin-left: 14%;
+	}
+}
+
 @media screen and (-ms-high-contrast: active),
 (-ms-high-contrast: none) {
 	/* IE10+ specific styles go here */
@@ -386,18 +437,17 @@ input::-webkit-calendar-picker-indicator {
 }
 
 @media screen and (-ms-high-contrast: active),
-(-ms-high-contrast: none) and (max-width: 1177px){
-	/* IE10+ specific styles go here */	
+(-ms-high-contrast: none) and (max-width: 1177px) {
+	/* IE10+ specific styles go here */
 	.wrapper {
 		background: url(images/Green_Elements.png) no-repeat 0 36px;
-	}	
+	}
 }
 
 @media screen and (-ms-high-contrast: active),
-(-ms-high-contrast: none) and (max-width: 764px){
-	/* IE10+ specific styles go here */	
+(-ms-high-contrast: none) and (max-width: 764px) {
+	/* IE10+ specific styles go here */
 	.wrapper {
 		background: none;
-	}	
+	}
 }
-
