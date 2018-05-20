@@ -53,6 +53,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+    box-sizing: border-box;
 }
 
 /* Anchor will cover the whole item by default */
@@ -1261,18 +1262,14 @@ figure.effect-duke:hover p {
 	.grid figure {
 		height: 85%;
 	}
-	.second .grid figure {
-		margin-top: -10%;
-	}
+	
 }
 
 @media screen and (max-width: 991px) {
 	.grid figure {
 		height: 70%;
 	}
-	.second .grid figure {
-		margin-top: -26%;
-	}
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -1280,9 +1277,7 @@ figure.effect-duke:hover p {
 		height: 95%;
 		width: 80%;
 	}
-	.second .grid figure {
-		margin-top: 0;
-	}
+	
 	.footer {
 		width: 80%;
 		margin: 0 auto;
